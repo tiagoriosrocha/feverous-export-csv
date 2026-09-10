@@ -1,0 +1,17 @@
+# Dependências para executar tools/export_graph_ready_csv.py com Python 3.14.
+# Instale com: python -m pip install --no-deps -r requirements.txt
+# O --no-deps evita os pins antigos do projeto original; as dependências
+# necessárias ao exportador estão listadas explicitamente abaixo.
+feverous @ git+https://github.com/Raldir/FEVEROUS.git
+clean-text==0.7.1
+cloudpickle==3.1.2
+emoji==2.15.0
+ftfy==6.3.1
+joblib==1.6.0
+narwhals==2.26.0
+numpy==2.5.3
+regex==2026.9.10
+scikit-learn==1.9.0
+scipy==1.18.1
+threadpoolctl==3.6.0
+wcwidth==0.8.3
