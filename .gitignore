@@ -17,4 +17,4 @@ data/
 *.part
 
 # Saídas geradas pelo exportador
-processed-data/*.csv
+#processed-data/*.csv
